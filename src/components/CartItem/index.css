@@ -1,0 +1,136 @@
+.cart-list-item {
+  display: flex;
+  width: 95%;
+  height: 140px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+@media screen and (min-width: 767px) {
+  .cart-list-item {
+    width: 90%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 8px;
+  }
+}
+.cart-item-image {
+  width: 136px;
+  height: 130px;
+  border-radius: 8px;
+}
+.cart-name-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 1100px) {
+  .cart-name-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+
+.cart-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+@media screen and (min-width: 767px) {
+  .cart-item-name {
+    width: 50px;
+  }
+}
+.each-item-counter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
+  height: 30px;
+  width: 60px;
+}
+@media screen and (min-width: 768px) {
+  .each-item-counter-container {
+    width: auto;
+  }
+}
+.minus-icon-container {
+  border: none;
+  background-color: transparent;
+}
+.minus-icon {
+  border: 1px solid #334155;
+  padding: 2px;
+  color: #334155;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .minus-icon {
+    font-size: 16px;
+  }
+}
+.count-value {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #334155;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .count-value {
+    font-size: 16px;
+  }
+}
+.plus-icon-container {
+  border: none;
+  background-color: transparent;
+}
+.plus-icon {
+  border: 1px solid #334155;
+  padding: 2px;
+  color: #334155;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .plus-icon {
+    font-size: 16px;
+  }
+}
+.cart-item-rate-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cart-item-rupee {
+  height: 16px;
+  width: 16px;
+  border-radius: 0px;
+  color: #ffa412;
+}
+.cart-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffa412;
+}
+@media screen and (min-width: 767px) {
+  .cart-item-cost {
+    font-size: 18px;
+  }
+}

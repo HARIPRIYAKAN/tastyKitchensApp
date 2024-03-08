@@ -1,0 +1,51 @@
+.restaurant-details-background-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-detail-food-items-container {
+}
+.restaurant-details-loader {
+}
+.restaurant-details-main-container {
+}
+.restaurant-details-container {
+}
+
+.restaurant-details-img {
+}
+.details-container {
+}
+.restaurant-detail-name {
+}
+.restaurant-detail-cuisine {
+}
+.restaurant-detail-location {
+}
+.restaurant-detail-rating-cost-container {
+}
+.restaurant-detail-ratings-container {
+}
+.restaurant-detail-ratings {
+}
+.restaurant-detail-star {
+}
+.restaurant-detail-rating-para {
+}
+.restaurant-detail-reviews {
+}
+.restaurant-detail-vertical-line {
+}
+.restaurant-detail-cost-container {
+}
+.restaurant-detail-cost {
+}
+.restaurant-detail-rupee {
+}
+.restaurant-detail-cost-for-two {
+}
+.restaurant-detail-cost-para {
+}
